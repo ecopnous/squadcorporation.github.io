@@ -1,0 +1,21 @@
+@media screen and (max-width:650px) {
+    body{
+        font-family: "Century Gothic", helvetica;
+    }
+    .blockPage{
+        margin: 5px;
+    }
+    nav{
+        display: none;
+    }
+    .cacheNav{
+        display: block;
+        float: left;
+    }
+    .navFloat{
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+}

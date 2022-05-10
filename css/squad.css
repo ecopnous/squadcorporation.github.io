@@ -1,0 +1,114 @@
+body{
+    overflow-x: hidden;
+    font-family: "Century Gothic", helvetica;
+    margin: 0px;
+}
+header{
+    box-shadow: 2px 2px 5px black;
+    padding: 10px;
+}
+#Contact{
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: large;
+    font-family: "Century Gothic", helvetica, arial;
+    border-style: none;
+    background-color: rgb(71, 133, 9);
+    color: white;
+}
+/***************************************************************************************************************************/
+.bannier{
+    position: relative;
+}
+.annonce{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+.bannierDescriptive{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    width: 100%;
+    padding-top: 5px;
+    font-size: large;
+}
+/*********************************************************************************************************************/
+section{
+    background-image: url("../images/font1.jpg");
+    padding: 20px;
+    padding-top: 50px;
+    text-align: center;
+}
+/********************************************************************************************************************/
+article{
+    text-align: justify;
+    max-width: 600px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: blanchedalmond;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+}
+/******************************************************************************************************************/
+#contact img{
+    width: 23px;
+}
+#contact li{
+    display: inline-block;
+    vertical-align: top;
+    list-style: none;
+}
+button{
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Century Gothic', Arial;
+}
+.nousmateriel img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px rgb(53, 52, 52);
+    margin-left: 10px;
+}
+.imagepage img{
+    width: 100%;
+    height: 200px;
+    border-radius: 50%;
+}
+/***************************************************************************************************************************/
+aside{
+    max-width: 400px;
+    border-radius: 20px;
+    background-image: url("../images/font6.jpg");
+    text-align: justify;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50px;
+}
+/******************************************************************************************************************************/
+@media screen and (max-width:900px) {
+    aside{
+        display: block;
+        margin-top: 20px;
+        width: auto;
+        margin-left: 0px;
+    }
+}
+footer{
+    background-color: black;
+    padding: 10px;
+    color: blanchedalmond;
+}
